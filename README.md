@@ -6,7 +6,7 @@ This small library will help begineers in react-native to store data easily in t
 Add the `DAAsyncStorage.js` file to your project. <br>
 Add <br>
 ```javascript
-var myDB = require('./DAStorage');
+var myDB = require('./DAAsyncStorage');
 var myDBInstance = new myDB();
 ```
 

@@ -3,7 +3,7 @@ import {
   AsyncStorage,
 } from 'react-native';
 
-class DAStorage {
+class DAAsyncStorage {
 
   async getTheItem(key,callback) {
     var fetchedItem;
@@ -38,4 +38,4 @@ class DAStorage {
 
 }
 
-module.exports = DAStorage;
+module.exports = DAAsyncStorage;
